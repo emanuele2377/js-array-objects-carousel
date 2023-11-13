@@ -23,7 +23,7 @@ const img = [
 ];
 
 
-
+ 
 let immaginiDaInserire = "";
 let image = "";
 for (let i = 0; i < img.length; i++) {
