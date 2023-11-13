@@ -25,12 +25,17 @@ const img = [
 
 
 let immaginiDaInserire = "";
+let image = "";
 for (let i = 0; i < img.length; i++) {
-    const percorsoImmagine = img[i];
-    immaginiDaInserire += `<img src="${percorsoImmagine}">`;
+    const image = img[i];
+    immaginiDaInserire += img[i].image;
     
+    console.log(image)
 }
 document.getElementById("carousel-wrapper").innerHTML = immaginiDaInserire;
+
+
+
 
 
 //Gestisco i pulsanti
